@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbfc09da-bbbd-426e-9648-8fc2210c248d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru.netology.sqr/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru.netology.sqr/SQRService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SQRServiceTest.java" afterDir="false" />
+    <list default="true" id="dbfc09da-bbbd-426e-9648-8fc2210c248d" name="Changes" comment="Need counter">
+      <change afterPath="$PROJECT_DIR$/src/SqrService/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru.netology.sqr/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru.netology.sqr/SQRService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SqrService/SQRService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SQRServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SQRServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +18,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,7 +48,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/1/homework2/SQRservice/IdeaProjects/ProjectSQRservice/src/ru.netology.sqr"
+    "last_opened_file_path": "C:/Users/1/homework2/statisticService/IdeaProjects/statisticService/src/main/java/ru/netology/stats/StatsService.java"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -71,18 +72,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ProjectSQRservice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -93,6 +89,14 @@
       <option name="presentableId" value="Default" />
       <updated>1654010107548</updated>
     </task>
+    <task id="LOCAL-00001" summary="Need counter">
+      <created>1654022749259</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654022749259</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,5 +109,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Need counter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Need counter" />
   </component>
 </project>
