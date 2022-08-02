@@ -6,8 +6,8 @@ public class SQRServiceTest {
     @Test
     void shouldRangeSqrService() {
         SQRService service = new SQRService();
-        int expected = 13;
-        int actual = service.rangeSqrService(300,900);
+        int expected = 14;
+        int actual = service.calculateSquared();
         assertEquals(expected, actual);
     }
 }

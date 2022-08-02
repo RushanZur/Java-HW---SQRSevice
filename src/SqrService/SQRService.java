@@ -1,12 +1,13 @@
 public class SQRService {
-    public int rangeSqrService(int numberMin, int numberMax) {
+    public int calculateSquared() {
+        SQRService service = new SQRService();
+        int numberMin = 10;
+        int numberMax = 99;
         int counter = 0;
-        for (int i = numberMin; i < numberMax; i++) {
+        for (int i = numberMin; i < numberMax; i++)
             if (i * i >= 300 && i * i <= 900)
                 counter++;
-            return counter;
-
-        }
-        return 0;
+            System.out.println("Количество квадратов чисел в диапазоне равно " + counter++);
+        return counter++;
     }
 }
