@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbfc09da-bbbd-426e-9648-8fc2210c248d" name="Changes" comment="i try">
-      <change afterPath="$PROJECT_DIR$/src/SqrService/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="dbfc09da-bbbd-426e-9648-8fc2210c248d" name="Changes" comment="Trying do test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SqrService/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SqrService/SQRService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SqrService/SQRService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SqrService/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SqrService/SQRService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SQRService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SQRServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SQRServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +52,9 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "C:/Users/1/homework2/SQRservice/IdeaProjects/ProjectSQRservice",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
@@ -60,6 +63,7 @@
       <recent name="C:\Users\1\homework2\SQRservice\IdeaProjects\ProjectSQRservice\src\ru.netology.sqr" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1\homework2\SQRservice\IdeaProjects\ProjectSQRservice\src\main" />
       <recent name="C:\Users\1\homework2\SQRservice\IdeaProjects\ProjectSQRservice\src\test\java\ru\netology" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -75,7 +79,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SQRServiceTest">
+  <component name="RunManager" selected="JUnit.SQRServiceTest.rangeMaximal">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ProjectSQRservice" />
@@ -99,6 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SQRServiceTest.rangeMaximal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectSQRservice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SQRServiceTest" />
+      <option name="METHOD_NAME" value="rangeMaximal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SQRServiceTest.rangeMinimal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectSQRservice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SQRServiceTest" />
+      <option name="METHOD_NAME" value="rangeMinimal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SQRServiceTest.shouldRangeSqrService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjectSQRservice" />
       <option name="PACKAGE_NAME" value="" />
@@ -111,8 +135,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SQRServiceTest" />
+        <item itemvalue="JUnit.SQRServiceTest.rangeMaximal" />
+        <item itemvalue="JUnit.SQRServiceTest.rangeMinimal" />
         <item itemvalue="JUnit.SQRServiceTest.shouldRangeSqrService" />
+        <item itemvalue="JUnit.SQRServiceTest" />
         <item itemvalue="Application.SQRService" />
       </list>
     </recent_temporary>
@@ -140,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655051461227</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Trying do test">
+      <created>1659463962056</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659463962056</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,7 +190,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Need counter" />
     <MESSAGE value="i try" />
-    <option name="LAST_COMMIT_MESSAGE" value="i try" />
+    <MESSAGE value="Trying do test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying do test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ProjectSQRservice$SQRServiceTest.ic" NAME="SQRServiceTest Coverage Results" MODIFIED="1659463154613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
