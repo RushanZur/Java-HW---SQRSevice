@@ -7,7 +7,7 @@ public class SQRService {
         for (int i = numberMin; i < numberMax; i++)
             if (i * i >= rangeMin && i * i <= rangeMax)
                 counter++;
-            System.out.println("Количество квадратов чисел в диапазоне равно " + counter++);
+            System.out.println("Количество квадратов чисел в диапазоне равно " + counter);
         return counter;
     }
 }

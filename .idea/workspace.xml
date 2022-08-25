@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbfc09da-bbbd-426e-9648-8fc2210c248d" name="Changes" comment="Changes" />
+    <list default="true" id="dbfc09da-bbbd-426e-9648-8fc2210c248d" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SQRService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SQRService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SQRServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SQRServiceTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,25 +43,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/1/homework2/SQRservice/IdeaProjects/ProjectSQRservice",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/1/homework2/SQRservice/IdeaProjects/ProjectSQRservice&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\1\homework2\SQRservice\IdeaProjects\ProjectSQRservice\src\ru.netology.sqr" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1\homework2\SQRservice\IdeaProjects\ProjectSQRservice\.idea" />
+      <recent name="C:\Users\1\homework2\SQRservice\IdeaProjects\ProjectSQRservice\" />
       <recent name="C:\Users\1\homework2\SQRservice\IdeaProjects\ProjectSQRservice\src\main" />
       <recent name="C:\Users\1\homework2\SQRservice\IdeaProjects\ProjectSQRservice\src\test\java\ru\netology" />
     </key>
@@ -73,7 +80,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SQRServiceTest.rangeMaximal">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SQRServiceTest">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ProjectSQRservice" />
@@ -129,10 +141,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SQRServiceTest.rangeMaximal" />
-        <item itemvalue="JUnit.SQRServiceTest.rangeMinimal" />
-        <item itemvalue="JUnit.SQRServiceTest.shouldRangeSqrService" />
         <item itemvalue="JUnit.SQRServiceTest" />
+        <item itemvalue="JUnit.SQRServiceTest.rangeMinimal" />
+        <item itemvalue="JUnit.SQRServiceTest.rangeMaximal" />
+        <item itemvalue="JUnit.SQRServiceTest.shouldRangeSqrService" />
         <item itemvalue="Application.SQRService" />
       </list>
     </recent_temporary>
@@ -174,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660758147485</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changes">
+      <created>1660758474286</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660758474286</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
